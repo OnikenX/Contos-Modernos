@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 103: Line is indented, but the preceding voice statement statement does not expect a block. Please check this line's indentation.
+    capo "Não tens nada a haver com isso."
+    ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Mon Jun  1 21:42:23 2020

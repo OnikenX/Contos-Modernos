@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "launcher/game/web.rpy", line 197, in script
+    $ add_dlc("web", restart=True)
+  File "launcher/game/web.rpy", line 197, in <module>
+    $ add_dlc("web", restart=True)
+  File "launcher/game/updater.rpy", line 58, in add_dlc
+    return renpy.invoke_in_new_context(updater.update, dlc_url, add=[name], public_key=PUBLIC_KEY, simulate=UPDATE_SIMULATE, restart=restart)
+  File "renpy/common/00updater.rpy", line 1317, in update
+    u = Updater(url=url, base=base, force=force, public_key=public_key, simulate=simulate, add=add, restart=restart, confirm=confirm)
+  File "renpy/common/00updater.rpy", line 304, in __init__
+    self.public_key = rsa.PublicKey.load_pkcs1(f.read())
+AttributeError: 'NoneType' object has no attribute 'PublicKey'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "launcher/game/web.rpy", line 197, in script
+    $ add_dlc("web", restart=True)
+  File "/usr/share/renpy/renpy/ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/usr/share/renpy/renpy/python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "launcher/game/web.rpy", line 197, in <module>
+    $ add_dlc("web", restart=True)
+  File "launcher/game/updater.rpy", line 58, in add_dlc
+    return renpy.invoke_in_new_context(updater.update, dlc_url, add=[name], public_key=PUBLIC_KEY, simulate=UPDATE_SIMULATE, restart=restart)
+  File "/usr/share/renpy/renpy/game.py", line 281, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "renpy/common/00updater.rpy", line 1317, in update
+    u = Updater(url=url, base=base, force=force, public_key=public_key, simulate=simulate, add=add, restart=restart, confirm=confirm)
+  File "renpy/common/00updater.rpy", line 304, in __init__
+    self.public_key = rsa.PublicKey.load_pkcs1(f.read())
+AttributeError: 'NoneType' object has no attribute 'PublicKey'
+
+Linux-5.6.14-arch1-1-x86_64-with-glibc2.2.5
+Ren'Py 7.3.5.606
+Ren'Py Launcher 7.3.5.606
+Sun May 31 17:50:56 2020

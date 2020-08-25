@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 87, in script
+    voice Capuchinho_1
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/script.rpy", line 87, in <module>
+    voice Capuchinho_1
+NameError: name 'Capuchinho_1' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 87, in script
+    voice Capuchinho_1
+  File "/usr/share/renpy/renpy/ast.py", line 1949, in execute
+    self.call("execute")
+  File "/usr/share/renpy/renpy/ast.py", line 1937, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "/usr/share/renpy/renpy/statements.py", line 277, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00voice.rpy", line 534, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "/usr/share/renpy/renpy/python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/usr/share/renpy/renpy/python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 87, in <module>
+    voice Capuchinho_1
+NameError: name 'Capuchinho_1' is not defined
+
+Linux-5.6.15-arch1-1-x86_64-with-glibc2.2.5
+Ren'Py 7.3.5.606
+Contos Modernos 1.0
+Mon Jun  1 04:52:27 2020

@@ -1,0 +1,38 @@
+ERA UMA VEZ uma linda menina que vivia numa aldeia, a quem a sua avó lhe deu um capucho vermelho, e desde então passaram a chamar-lhe de Capuchinho Vermelho.
+
+Um dia a mãe chamou-a e pediu-lhe um favor:
+
+- Coloquei nesta cesta um bolo e uma garrafa de leite. Leva-o à avozinha, que tem andado adoentada. Vai agora de manhã antes que fique muito quente, e enquanto estiveres
+a caminho tem cuidado. Não corras, não saias do caminho e não fales com estranhos.
+
+(fade para os dois caminhos)
+
+[Queres seguir o caminho?]
+
+[Queres correr?]
+
+(fade para a floresta)
+
+Ia a Capuchinho Vermelho pelo caminho quando, de repente, encontrou o Lobo. A Capuchinho não o conhecia, mas ele até parecia simpático e ela não tinha medo dele.
+Este, com uma voz muito doce disse-lhe:
+
+- Bom dia Capuchinho Vermelho. Para onde vais tão cedo?
+
+[OPÇOES] - Bom dia Sr. Lobo, desculpe mas não falo com estranhos.
+
+- O que tens nessa cesta?
+
+[OPÇOES] - Não tens nada a haver com isso.
+
+A Capuchinho continuou a andar, mas o Lobo seguia-a.
+
+[OPÇOES]
+
+Então apareceu o Lenhador. A Capuchinho pensou se lhe devia pedir ajuda.
+
+[OPÇOES]
+
+A Capuchinho foi esperta e andou no sentido do Caçador sem o Lobo perceber.
+Quando o Caçador olhou para ela, fez-lhe sinal a pedir ajuda.
+Então ele matou o Lobo e acompanhou a Capuchinho até casa da sua avó.
+Ela, a Avózinha e o Caçador comeram o bolo e beberam o leite, felizes por tudo ter acabado bem.
